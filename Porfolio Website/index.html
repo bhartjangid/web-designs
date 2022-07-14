@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/logo.png" alt="My Portfolio" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="humburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Bharat Jangid</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web Developer.</p>
+      <img
+        src="./images/myself.JPG"
+        alt="A picture of Bharat Jangid"
+        class="intro--img"
+      />
+    </section>
+    <!-- Introduction End -->
+
+    <!-- Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Wordpress</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam
+            est non vel aperiam, maiores nostrum sit suscipit consectetur
+            quaerat distinctio in praesentium error explicabo commodi
+            asperiores? Obcaecati sit quibusdam dolorem illo vel autem, non iure
+            mollitia nobis esse necessitatibus.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam
+            est non vel aperiam, maiores nostrum sit suscipit consectetur
+            quaerat distinctio in praesentium error explicabo commodi
+            asperiores? Obcaecati sit quibusdam dolorem illo vel autem, non iure
+            mollitia nobis esse necessitatibus.
+          </p>
+        </div>
+        <div class="service">
+          <h3>React Apps</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam
+            est non vel aperiam, maiores nostrum sit suscipit consectetur
+            quaerat distinctio in praesentium error explicabo commodi
+            asperiores? Obcaecati sit quibusdam dolorem illo vel autem, non iure
+            mollitia nobis esse necessitatibus.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <!-- Services End -->
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Lorem ipsum, dolor
+      </p>
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis amet
+          libero, vero molestias obcaecati minus est suscipit corrupti
+          doloremque vitae!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis amet
+          libero, vero molestias obcaecati minus est suscipit corrupti
+          doloremque vitae!Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Omnis amet libero, vero molestias obcaecati minus est suscipit
+          corrupti doloremque vitae!
+        </p>
+      </div>
+      <img src="./images/about-img.JPG" alt="" class="about-me__img" />
+    </section>
+    <!-- About Me End -->
+
+    <!-- Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Lorem ipsum dolor sit amet.
+      </p>
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio3.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio4.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio3.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio4.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio6.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio3.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio4.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./images/portfolio6.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+    <!-- Work End -->
+
+    <footer class="footer">
+      <a href="mailto:bharatjangid907@gmail.com" class="footer__link"
+        >bharatjangid907@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fa-brands fa-google"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
